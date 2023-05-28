@@ -30,5 +30,5 @@ public with sharing class Shopify2SalesforceIntegrationTest {
         string name = order.Customer_Name__c;
         system.assertEquals('Jackson', name);
     }
-
+ 
 }
